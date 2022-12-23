@@ -10,6 +10,10 @@ import { BotonComponent } from './boton/boton.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports:[
+    BotonComponent
   ]
+
 })
 export class FooterModule { }

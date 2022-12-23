@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { FooterModule } from './footer/footer.module';
 import { HeaderModule } from './header/header.module';
 
 @NgModule({
@@ -10,7 +11,9 @@ import { HeaderModule } from './header/header.module';
   ],
   imports: [
     BrowserModule,
-    HeaderModule
+    HeaderModule,
+    FooterModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
